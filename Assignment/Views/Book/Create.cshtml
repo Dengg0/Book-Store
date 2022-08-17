@@ -24,7 +24,7 @@
             <span asp-validation-for="Image" class="text text-danger"></span>
         </div>
         <div class="form-group">
-            <label asp-for="AuthorId" class="text text-success"></label>
+            <label asp-for="Author" class="text text-success"></label>
             <select asp-for="AuthorId" class="form-control" asp-items="@(new SelectList(ViewBag.Authors,"Id","Name"))">
                 <option>Select one</option>
             </select>

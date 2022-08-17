@@ -91,7 +91,6 @@ namespace Assignment.Controllers
             return View(book);
         }
 
-        
         public IActionResult Store()
         {
             return View(context.Books.ToList());
