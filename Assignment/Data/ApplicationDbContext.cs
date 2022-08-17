@@ -43,25 +43,25 @@ namespace Assignment.Data
                 new Author
                 {
                     Id = 1,
-                    Name = "J.K. Rowling",
-                    Country = "United Kingdom"
+                    Name = "Gosho AOYAMA",
+                    Country = "Japan"
                 },
                 new Author
                 {
                     Id = 2,
-                    Name = "J.R.R. Tolkien",
-                    Country = "United States"
+                    Name = "Fujiko F Fujio",
+                    Country = "Japan"
                 },
                 new Author
                 {
                     Id = 3,
-                    Name = "Stephen King",
-                    Country = "United States"
+                    Name = "Vu Trong Phung",
+                    Country = "Viet Nam"
                 },
                 new Author
                 {
                     Id = 4,
-                    Name = "George R.R. Martin",
+                    Name = "J. K. Rowling",
                     Country = "United States"
                 }
                 );
@@ -158,9 +158,9 @@ namespace Assignment.Data
                 new Book
                 {
                     Id = 1,
-                    Title = "Harry Potter",
-                    Price = 120,
-                    Image = "https://bookbuy.vn/Res/Images/Product/harry-potter-tap-8-harry-porter-and-the-cursed-child-parts-one-two-special-rehearsal-edition-script-_52322_1.jpg",
+                    Title = "Conan",
+                    Price = 5,
+                    Image = "https://tuoitho.mobi/upload/doc-truyen/conan/anh-dai-dien.jpg",
                     Quantity = 30,
                     CategoryId = 1,
                     AuthorId = 1
@@ -168,9 +168,9 @@ namespace Assignment.Data
                 new Book
                 {
                     Id = 2,
-                    Title = "Godfather",
-                    Price = 120,
-                    Image = "https://images-na.ssl-images-amazon.com/images/I/71Jk3baRdnL.jpg",
+                    Title = "Doremon",
+                    Price = 3,
+                    Image = "https://tuoitho.mobi/upload/truyen/doremon-truyen-ngan-tap-3/anh-bia.jpg",
                     Quantity = 30,
                     CategoryId = 1,
                     AuthorId = 2
@@ -178,9 +178,9 @@ namespace Assignment.Data
                 new Book
                 {
                     Id = 3,
-                    Title = "The Shining",
-                    Price = 120,
-                    Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
+                    Title = "Lam Di",
+                    Price = 500,
+                    Image = "https://sach86.com/wp-content/uploads/2020/10/Lam-Di.jpg",
                     Quantity = 30,
                     CategoryId = 3,
                     AuthorId = 2
@@ -199,9 +199,9 @@ namespace Assignment.Data
                 new Book
                 {
                     Id = 5,
-                    Title = "The Shining",
+                    Title = "Harry Potter",
                     Price = 120,
-                    Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
+                    Image = "http://prodimage.images-bn.com/pimages/9780545139700_p0_v5_s1200x630.jpg",
                     Quantity = 30,
                     CategoryId = 2,
                     AuthorId = 4
@@ -225,36 +225,6 @@ namespace Assignment.Data
                     Quantity = 30,
                     CategoryId = 4,
                     AuthorId = 2
-                },
-                new Book
-                {
-                    Id = 8,
-                    Title = "The Shining",
-                    Price = 120,
-                    Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
-                    Quantity = 30,
-                    CategoryId = 5,
-                    AuthorId = 3
-                },
-                new Book
-                {
-                    Id = 9,
-                    Title = "The Shining",
-                    Price = 120,
-                    Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
-                    Quantity = 30,
-                    CategoryId = 6,
-                    AuthorId = 4
-                },
-                new Book
-                {
-                    Id = 10,
-                    Title = "The Stand",
-                    Price = 120,
-                    Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
-                    Quantity = 30,
-                    CategoryId = 2,
-                    AuthorId = 1
                 }
                 );
         }
