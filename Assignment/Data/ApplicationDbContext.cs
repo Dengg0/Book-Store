@@ -178,7 +178,7 @@ namespace Assignment.Data
                 new Book
                 {
                     Id = 3,
-                    Title = "Lam Di",
+                    Title = "Làm ĐĨ",
                     Price = 500,
                     Image = "https://sach86.com/wp-content/uploads/2020/10/Lam-Di.jpg",
                     Quantity = 30,
@@ -188,9 +188,9 @@ namespace Assignment.Data
                 new Book
                 {
                     Id = 4,
-                    Title = "The Stand",
-                    Price = 120,
-                    Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
+                    Title = "The Hunger Games",
+                    Price = 200,
+                    Image = "https://cdn.vox-cdn.com/thumbor/dyjy2i3y73CS3m1uHvkgFMEJzqE=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/21960146/61JfGcL2ljL.jpg",
                     Quantity = 30,
                     CategoryId = 4,
                     AuthorId = 3
@@ -219,12 +219,12 @@ namespace Assignment.Data
                 new Book
                 {
                     Id = 7,
-                    Title = "The Stand",
+                    Title = "Cormoran Strike",
                     Price = 120,
-                    Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
+                    Image = "https://salt.tikicdn.com/ts/product/17/22/0b/da2ced7d44ce084dd6b6dde1ce00b97a.jpg",
                     Quantity = 30,
                     CategoryId = 4,
-                    AuthorId = 2
+                    AuthorId = 4
                 }
                 );
         }
@@ -235,17 +235,17 @@ namespace Assignment.Data
                 new Category
                 {
                     Id = 1,
-                    Name = "Thriller"
+                    Name = "Romance"
                 },
                 new Category
                 {
                     Id = 2,
-                    Name = "Drama"
+                    Name = "Comic"
                 },
                 new Category
                 {
                     Id = 3,
-                    Name = "Horror"
+                    Name = "Adventure"
                 },
                 new Category
                 {
@@ -255,7 +255,7 @@ namespace Assignment.Data
                 new Category
                 {
                     Id = 5,
-                    Name = "Romance"
+                    Name = "Horror"
                 },
                 new Category
                 {

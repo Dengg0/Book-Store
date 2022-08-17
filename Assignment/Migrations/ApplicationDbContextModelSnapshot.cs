@@ -41,26 +41,26 @@ namespace Assignment.Migrations
                         new
                         {
                             Id = 1,
-                            Country = "United Kingdom",
-                            Name = "J.K. Rowling"
+                            Country = "Japan",
+                            Name = "Gosho AOYAMA"
                         },
                         new
                         {
                             Id = 2,
-                            Country = "United States",
-                            Name = "J.R.R. Tolkien"
+                            Country = "Japan",
+                            Name = "Fujiko F Fujio"
                         },
                         new
                         {
                             Id = 3,
-                            Country = "United States",
-                            Name = "Stephen King"
+                            Country = "Viet Nam",
+                            Name = "Vu Trong Phung"
                         },
                         new
                         {
                             Id = 4,
                             Country = "United States",
-                            Name = "George R.R. Martin"
+                            Name = "J. K. Rowling"
                         });
                 });
 
@@ -104,50 +104,50 @@ namespace Assignment.Migrations
                             Id = 1,
                             AuthorId = 1,
                             CategoryId = 1,
-                            Image = "https://bookbuy.vn/Res/Images/Product/harry-potter-tap-8-harry-porter-and-the-cursed-child-parts-one-two-special-rehearsal-edition-script-_52322_1.jpg",
-                            Price = 120.0,
+                            Image = "https://tuoitho.mobi/upload/doc-truyen/conan/anh-dai-dien.jpg",
+                            Price = 5.0,
                             Quantity = 30,
-                            Title = "Harry Potter"
+                            Title = "Conan"
                         },
                         new
                         {
                             Id = 2,
                             AuthorId = 2,
                             CategoryId = 1,
-                            Image = "https://images-na.ssl-images-amazon.com/images/I/71Jk3baRdnL.jpg",
-                            Price = 120.0,
+                            Image = "https://tuoitho.mobi/upload/truyen/doremon-truyen-ngan-tap-3/anh-bia.jpg",
+                            Price = 3.0,
                             Quantity = 30,
-                            Title = "Godfather"
+                            Title = "Doremon"
                         },
                         new
                         {
                             Id = 3,
                             AuthorId = 2,
                             CategoryId = 3,
-                            Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
-                            Price = 120.0,
+                            Image = "https://sach86.com/wp-content/uploads/2020/10/Lam-Di.jpg",
+                            Price = 500.0,
                             Quantity = 30,
-                            Title = "The Shining"
+                            Title = "Làm ĐĨ"
                         },
                         new
                         {
                             Id = 4,
                             AuthorId = 3,
                             CategoryId = 4,
-                            Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
-                            Price = 120.0,
+                            Image = "https://cdn.vox-cdn.com/thumbor/dyjy2i3y73CS3m1uHvkgFMEJzqE=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/21960146/61JfGcL2ljL.jpg",
+                            Price = 200.0,
                             Quantity = 30,
-                            Title = "The Stand"
+                            Title = "The Hunger Games"
                         },
                         new
                         {
                             Id = 5,
                             AuthorId = 4,
                             CategoryId = 2,
-                            Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
+                            Image = "http://prodimage.images-bn.com/pimages/9780545139700_p0_v5_s1200x630.jpg",
                             Price = 120.0,
                             Quantity = 30,
-                            Title = "The Shining"
+                            Title = "Harry Potter"
                         },
                         new
                         {
@@ -162,42 +162,12 @@ namespace Assignment.Migrations
                         new
                         {
                             Id = 7,
-                            AuthorId = 2,
-                            CategoryId = 4,
-                            Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
-                            Price = 120.0,
-                            Quantity = 30,
-                            Title = "The Stand"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            AuthorId = 3,
-                            CategoryId = 5,
-                            Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
-                            Price = 120.0,
-                            Quantity = 30,
-                            Title = "The Shining"
-                        },
-                        new
-                        {
-                            Id = 9,
                             AuthorId = 4,
-                            CategoryId = 6,
-                            Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
+                            CategoryId = 4,
+                            Image = "https://salt.tikicdn.com/ts/product/17/22/0b/da2ced7d44ce084dd6b6dde1ce00b97a.jpg",
                             Price = 120.0,
                             Quantity = 30,
-                            Title = "The Shining"
-                        },
-                        new
-                        {
-                            Id = 10,
-                            AuthorId = 1,
-                            CategoryId = 2,
-                            Image = "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg",
-                            Price = 120.0,
-                            Quantity = 30,
-                            Title = "The Stand"
+                            Title = "Cormoran Strike"
                         });
                 });
 
@@ -220,17 +190,17 @@ namespace Assignment.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Thriller"
+                            Name = "Romance"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Drama"
+                            Name = "Comic"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Horror"
+                            Name = "Adventure"
                         },
                         new
                         {
@@ -240,7 +210,7 @@ namespace Assignment.Migrations
                         new
                         {
                             Id = 5,
-                            Name = "Romance"
+                            Name = "Horror"
                         },
                         new
                         {
@@ -326,21 +296,21 @@ namespace Assignment.Migrations
                         new
                         {
                             Id = "1",
-                            ConcurrencyStamp = "3c4b30f9-3df4-4990-adfc-154ce626f4bb",
+                            ConcurrencyStamp = "68ef44c1-d853-4266-9c95-b22099b050fa",
                             Name = "Admin",
                             NormalizedName = "Admin"
                         },
                         new
                         {
                             Id = "2",
-                            ConcurrencyStamp = "9adfe82c-6c73-4035-95aa-186c5d7dc3be",
+                            ConcurrencyStamp = "2a11f01f-d181-47d9-a2a6-5c91e56bd0a9",
                             Name = "Customer",
                             NormalizedName = "Customer"
                         },
                         new
                         {
                             Id = "3",
-                            ConcurrencyStamp = "153fde58-c445-4c80-9ac8-30d6a56d3368",
+                            ConcurrencyStamp = "2dac22fc-4ddf-425c-a525-40b6dc28687d",
                             Name = "StoreOwner",
                             NormalizedName = "StoreOwner"
                         });
@@ -439,14 +409,14 @@ namespace Assignment.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9258c6d5-f899-4988-bd70-9e77a53acdde",
+                            ConcurrencyStamp = "8c55a0e6-4057-4875-a2ac-9415eb0b5bb1",
                             Email = "admin@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "admin@gmail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDAv0OqCRRmAxYzBCmM1EQ/1QYmxZUSF57oEhhrPV10vc/hokrihkva3D+j6QeWIag==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJ4B4xyh+zK9ie64MFk1VdYcjrFU9BrWeoNA9BM4nTBB2DLBlP7tt4WJZRtT4rHb5w==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "0e8afc3b-7702-45ff-be47-c68d01708afc",
+                            SecurityStamp = "2119b640-c354-409f-b96a-300be1102d52",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         },
@@ -454,14 +424,14 @@ namespace Assignment.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0b27771d-70c8-492d-aedd-f7aca7805f75",
+                            ConcurrencyStamp = "c889ede6-09ba-4916-8d88-ed7c7d9b4a11",
                             Email = "customer@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "customer@gmail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIN1S2kNvhjPkdl0sYlbku7qrO6VpYhmRDOKI8KCBxQJHuOTjjRV2KGbMoq4io1jeg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEKV+lJRP6Xbzf37+oa0tCKsYg+JrSTiyNiMcvV/NdZ+JXZwttbaWd0BIzLRLgoFZQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "e8d9fec4-71c1-4d88-8ede-101f5e5bd1c2",
+                            SecurityStamp = "8cb6c97a-7825-4a7b-b5d5-e247819b7b9c",
                             TwoFactorEnabled = false,
                             UserName = "customer@gmail.com"
                         },
@@ -469,14 +439,14 @@ namespace Assignment.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2b7e1da2-466a-40a2-983e-fa03742730d8",
+                            ConcurrencyStamp = "b18c11a5-3811-47b4-aed4-78ebdce1f349",
                             Email = "storeowner@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "storeowner@gmail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKpwta6c046bljPAN37rZfrVlspdJ2Y+usP48NyEvTR6ug3z5gyfVunp2ADsCiyOwA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGlVnbIeXrGtmlMi4A7NKnKLhTjDIDoJ29EvsW4ICafEATE6IQIQdchm+uKZ78TmWQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "937d0a60-94e5-4bc5-83b7-90c071d29e2f",
+                            SecurityStamp = "6c7a9309-15a9-4a28-a5b7-6ab2a1ab0e3d",
                             TwoFactorEnabled = false,
                             UserName = "storeowner@gmail.com"
                         });

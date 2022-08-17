@@ -251,9 +251,9 @@ namespace Assignment.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "1", "3c4b30f9-3df4-4990-adfc-154ce626f4bb", "Admin", "Admin" },
-                    { "2", "9adfe82c-6c73-4035-95aa-186c5d7dc3be", "Customer", "Customer" },
-                    { "3", "153fde58-c445-4c80-9ac8-30d6a56d3368", "StoreOwner", "StoreOwner" }
+                    { "1", "68ef44c1-d853-4266-9c95-b22099b050fa", "Admin", "Admin" },
+                    { "2", "2a11f01f-d181-47d9-a2a6-5c91e56bd0a9", "Customer", "Customer" },
+                    { "3", "2dac22fc-4ddf-425c-a525-40b6dc28687d", "StoreOwner", "StoreOwner" }
                 });
 
             migrationBuilder.InsertData(
@@ -261,9 +261,9 @@ namespace Assignment.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1", 0, "9258c6d5-f899-4988-bd70-9e77a53acdde", "admin@gmail.com", false, false, null, null, "admin@gmail.com", "AQAAAAEAACcQAAAAEDAv0OqCRRmAxYzBCmM1EQ/1QYmxZUSF57oEhhrPV10vc/hokrihkva3D+j6QeWIag==", null, false, "0e8afc3b-7702-45ff-be47-c68d01708afc", false, "admin@gmail.com" },
-                    { "2", 0, "0b27771d-70c8-492d-aedd-f7aca7805f75", "customer@gmail.com", false, false, null, null, "customer@gmail.com", "AQAAAAEAACcQAAAAEIN1S2kNvhjPkdl0sYlbku7qrO6VpYhmRDOKI8KCBxQJHuOTjjRV2KGbMoq4io1jeg==", null, false, "e8d9fec4-71c1-4d88-8ede-101f5e5bd1c2", false, "customer@gmail.com" },
-                    { "3", 0, "2b7e1da2-466a-40a2-983e-fa03742730d8", "storeowner@gmail.com", false, false, null, null, "storeowner@gmail.com", "AQAAAAEAACcQAAAAEKpwta6c046bljPAN37rZfrVlspdJ2Y+usP48NyEvTR6ug3z5gyfVunp2ADsCiyOwA==", null, false, "937d0a60-94e5-4bc5-83b7-90c071d29e2f", false, "storeowner@gmail.com" }
+                    { "1", 0, "8c55a0e6-4057-4875-a2ac-9415eb0b5bb1", "admin@gmail.com", false, false, null, null, "admin@gmail.com", "AQAAAAEAACcQAAAAEJ4B4xyh+zK9ie64MFk1VdYcjrFU9BrWeoNA9BM4nTBB2DLBlP7tt4WJZRtT4rHb5w==", null, false, "2119b640-c354-409f-b96a-300be1102d52", false, "admin@gmail.com" },
+                    { "2", 0, "c889ede6-09ba-4916-8d88-ed7c7d9b4a11", "customer@gmail.com", false, false, null, null, "customer@gmail.com", "AQAAAAEAACcQAAAAEEKV+lJRP6Xbzf37+oa0tCKsYg+JrSTiyNiMcvV/NdZ+JXZwttbaWd0BIzLRLgoFZQ==", null, false, "8cb6c97a-7825-4a7b-b5d5-e247819b7b9c", false, "customer@gmail.com" },
+                    { "3", 0, "b18c11a5-3811-47b4-aed4-78ebdce1f349", "storeowner@gmail.com", false, false, null, null, "storeowner@gmail.com", "AQAAAAEAACcQAAAAEGlVnbIeXrGtmlMi4A7NKnKLhTjDIDoJ29EvsW4ICafEATE6IQIQdchm+uKZ78TmWQ==", null, false, "6c7a9309-15a9-4a28-a5b7-6ab2a1ab0e3d", false, "storeowner@gmail.com" }
                 });
 
             migrationBuilder.InsertData(
@@ -271,10 +271,10 @@ namespace Assignment.Migrations
                 columns: new[] { "Id", "Country", "Name" },
                 values: new object[,]
                 {
-                    { 1, "United Kingdom", "J.K. Rowling" },
-                    { 2, "United States", "J.R.R. Tolkien" },
-                    { 3, "United States", "Stephen King" },
-                    { 4, "United States", "George R.R. Martin" }
+                    { 1, "Japan", "Gosho AOYAMA" },
+                    { 2, "Japan", "Fujiko F Fujio" },
+                    { 3, "Viet Nam", "Vu Trong Phung" },
+                    { 4, "United States", "J. K. Rowling" }
                 });
 
             migrationBuilder.InsertData(
@@ -282,11 +282,11 @@ namespace Assignment.Migrations
                 columns: new[] { "Id", "Name" },
                 values: new object[,]
                 {
-                    { 1, "Thriller" },
-                    { 2, "Drama" },
-                    { 3, "Horror" },
+                    { 1, "Romance" },
+                    { 2, "Comic" },
+                    { 3, "Adventure" },
                     { 4, "Mystery" },
-                    { 5, "Romance" },
+                    { 5, "Horror" },
                     { 6, "Sci-Fi" }
                 });
 
@@ -305,16 +305,13 @@ namespace Assignment.Migrations
                 columns: new[] { "Id", "AuthorId", "CategoryId", "Image", "Price", "Quantity", "Title" },
                 values: new object[,]
                 {
-                    { 1, 1, 1, "https://bookbuy.vn/Res/Images/Product/harry-potter-tap-8-harry-porter-and-the-cursed-child-parts-one-two-special-rehearsal-edition-script-_52322_1.jpg", 120.0, 30, "Harry Potter" },
-                    { 2, 2, 1, "https://images-na.ssl-images-amazon.com/images/I/71Jk3baRdnL.jpg", 120.0, 30, "Godfather" },
-                    { 5, 4, 2, "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg", 120.0, 30, "The Shining" },
-                    { 10, 1, 2, "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg", 120.0, 30, "The Stand" },
-                    { 3, 2, 3, "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg", 120.0, 30, "The Shining" },
+                    { 1, 1, 1, "https://tuoitho.mobi/upload/doc-truyen/conan/anh-dai-dien.jpg", 5.0, 30, "Conan" },
+                    { 2, 2, 1, "https://tuoitho.mobi/upload/truyen/doremon-truyen-ngan-tap-3/anh-bia.jpg", 3.0, 30, "Doremon" },
+                    { 5, 4, 2, "http://prodimage.images-bn.com/pimages/9780545139700_p0_v5_s1200x630.jpg", 120.0, 30, "Harry Potter" },
+                    { 3, 2, 3, "https://sach86.com/wp-content/uploads/2020/10/Lam-Di.jpg", 500.0, 30, "Làm ĐĨ" },
                     { 6, 1, 3, "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg", 120.0, 30, "The Shining" },
-                    { 4, 3, 4, "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg", 120.0, 30, "The Stand" },
-                    { 7, 2, 4, "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg", 120.0, 30, "The Stand" },
-                    { 8, 3, 5, "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg", 120.0, 30, "The Shining" },
-                    { 9, 4, 6, "http://prodimage.images-bn.com/pimages/9780345806789_p0_v2_s1200x630.jpg", 120.0, 30, "The Shining" }
+                    { 4, 3, 4, "https://cdn.vox-cdn.com/thumbor/dyjy2i3y73CS3m1uHvkgFMEJzqE=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/21960146/61JfGcL2ljL.jpg", 200.0, 30, "The Hunger Games" },
+                    { 7, 4, 4, "https://salt.tikicdn.com/ts/product/17/22/0b/da2ced7d44ce084dd6b6dde1ce00b97a.jpg", 120.0, 30, "Cormoran Strike" }
                 });
 
             migrationBuilder.CreateIndex(
