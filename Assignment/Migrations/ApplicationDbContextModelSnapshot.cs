@@ -296,21 +296,21 @@ namespace Assignment.Migrations
                         new
                         {
                             Id = "1",
-                            ConcurrencyStamp = "68ef44c1-d853-4266-9c95-b22099b050fa",
+                            ConcurrencyStamp = "0495a7c1-9adc-48e9-bcb4-4bf5a44f926b",
                             Name = "Admin",
                             NormalizedName = "Admin"
                         },
                         new
                         {
                             Id = "2",
-                            ConcurrencyStamp = "2a11f01f-d181-47d9-a2a6-5c91e56bd0a9",
+                            ConcurrencyStamp = "48af3d85-4ae5-4062-b814-4fb1a875e3ed",
                             Name = "Customer",
                             NormalizedName = "Customer"
                         },
                         new
                         {
                             Id = "3",
-                            ConcurrencyStamp = "2dac22fc-4ddf-425c-a525-40b6dc28687d",
+                            ConcurrencyStamp = "2cfede86-d0c3-4c02-b759-19879c9251af",
                             Name = "StoreOwner",
                             NormalizedName = "StoreOwner"
                         });
@@ -409,14 +409,14 @@ namespace Assignment.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8c55a0e6-4057-4875-a2ac-9415eb0b5bb1",
+                            ConcurrencyStamp = "84c2d68b-9f12-4371-9657-ebccdd715ff5",
                             Email = "admin@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "admin@gmail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEJ4B4xyh+zK9ie64MFk1VdYcjrFU9BrWeoNA9BM4nTBB2DLBlP7tt4WJZRtT4rHb5w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENiBq2clNckrDmK8Sy70ldWX2mvP8F7/2VueV1uGVTlPbfa8mmHmiU6KV28BC7mpow==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "2119b640-c354-409f-b96a-300be1102d52",
+                            SecurityStamp = "c991534c-4480-4903-86af-ed1c5c5df50b",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         },
@@ -424,14 +424,14 @@ namespace Assignment.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c889ede6-09ba-4916-8d88-ed7c7d9b4a11",
+                            ConcurrencyStamp = "8cdad95c-d215-4ab6-89e6-31c6a66f0444",
                             Email = "customer@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "customer@gmail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEKV+lJRP6Xbzf37+oa0tCKsYg+JrSTiyNiMcvV/NdZ+JXZwttbaWd0BIzLRLgoFZQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEC3oBLTDrWzWhLYM7nPEhX9xVGKDWjdDOQtvknGa41fUG8K2xLopvaAW6fws4PaFjw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "8cb6c97a-7825-4a7b-b5d5-e247819b7b9c",
+                            SecurityStamp = "af750594-18df-4e10-842a-fc3e609325e3",
                             TwoFactorEnabled = false,
                             UserName = "customer@gmail.com"
                         },
@@ -439,14 +439,14 @@ namespace Assignment.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b18c11a5-3811-47b4-aed4-78ebdce1f349",
+                            ConcurrencyStamp = "f86363cb-ec28-40c4-92d6-33fb055755e3",
                             Email = "storeowner@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedUserName = "storeowner@gmail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGlVnbIeXrGtmlMi4A7NKnKLhTjDIDoJ29EvsW4ICafEATE6IQIQdchm+uKZ78TmWQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGqKPBR0pCCGcHeOpbOBK44TWUwIpOnNPv7L7gyFRBl+cbR05BsTlCDBG0xyIV9NgA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "6c7a9309-15a9-4a28-a5b7-6ab2a1ab0e3d",
+                            SecurityStamp = "79b9e8be-33ab-4260-b91e-c78be3a0aa98",
                             TwoFactorEnabled = false,
                             UserName = "storeowner@gmail.com"
                         });

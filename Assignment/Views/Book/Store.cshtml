@@ -2,11 +2,19 @@
 
 <div class="container text-center mt-3">
     <h3 class="text text-primary mt-2 mb-2">Book Store</h3>
-    
+
+    <div class="form-group">
+        <form asp-controller="Book" asp-action="Search">
+            <input type= "text" name="searchkey" placeholder="Search key" />
+            <input class="p-1 m1-2 btn btn-sm btn-info" type="submit" value="search"/>    
+        </form>
+    </div>   
     @if (TempData["Success"] != null)
     {
         <p class="alert alert-danger">@TempData["success"]</p>
     }
+
+        
 
     
     <div class="card-group">
@@ -16,7 +24,7 @@
                 <div class="col-md-3 p-3">
                     <div class="card">
                         <div class="card-body">
-                            <img class="card-img-top" src="@Book.Image" width="120" height="180">
+                            <img class="card-img-top" src="@Book.Image" width="120" height="250">
                             <h4 class="text text-primary mt-3">@Book.Title</h4>
                             <h5 class="text text-success">@Book.Price $</h5>
                         </div>

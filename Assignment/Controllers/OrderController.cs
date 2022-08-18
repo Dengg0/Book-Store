@@ -45,7 +45,7 @@ namespace Assignment.Controllers
             return RedirectToAction("Store", "Book");
         }
 
-        [Authorize(Roles = "Customer,Admin")]
+        [Authorize(Roles = "Customer, Admin")]
         public IActionResult Delete(int id)
         {
             var order = context.Order.Find(id);
