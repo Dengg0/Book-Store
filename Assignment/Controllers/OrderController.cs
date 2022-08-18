@@ -49,12 +49,15 @@ namespace Assignment.Controllers
         public IActionResult Delete(int id)
         {
             var order = context.Order.Find(id);
+            var book = context.Books.Find(order.BookId);
+            book.Quantity += order.OrderQuantity;
+            context.Books.Update(book);
             context.Order.Remove(order);
             context.SaveChanges();
             return RedirectToAction("Index", "Order");
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Customer,Admin")]
         public IActionResult Index()
         {
             var orders = context.Order

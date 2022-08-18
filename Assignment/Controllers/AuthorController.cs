@@ -39,7 +39,7 @@ namespace Assignment.Controllers
 
         [Authorize(Roles = "StoreOwner")]
         [HttpGet]
-        public IActionResult Create()
+        public IActionResult Add()
         {
            
             return View();
@@ -47,13 +47,13 @@ namespace Assignment.Controllers
 
         [Authorize(Roles = "StoreOwner")]
         [HttpPost]
-        public IActionResult Create(Author author)
+        public IActionResult Add(Author author)
         {
             if (ModelState.IsValid)
             {
                 context.Authors.Add(author);
                 context.SaveChanges();
-                TempData["Message"] = "Create author successfully !";
+                TempData["Message"] = "Add author successfully !";
                 return RedirectToAction(nameof(Index));
             }
             return View(author);
