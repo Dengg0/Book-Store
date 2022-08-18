@@ -75,12 +75,5 @@ namespace Assignment.Controllers
                 .ToList();
             return View(orders);
         }
-
-        
-            
-
-
-
-
     }
 }
