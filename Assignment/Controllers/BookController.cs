@@ -97,12 +97,12 @@ namespace Assignment.Controllers
             return View(context.Books.ToList());
         }
 
-        [HttpPost]
-        public IActionResult Search(string keyword)
-        {
-            var books = context.Books.Where(m => m.Title.Contains(keyword)).ToList();
-            return View("Store", books);
-        }
+        //[HttpPost]
+        //public IActionResult Search(string keyword)
+        //{
+        //    var books = context.Books.Where(m => m.Title.Contains(keyword)).ToList();
+        //    return View("Store", books);
+        //}
 
     }
 }

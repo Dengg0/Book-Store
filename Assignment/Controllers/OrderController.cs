@@ -28,6 +28,7 @@ namespace Assignment.Controllers
             var book = context.Books.Find(id);
             order.Book = book;
             order.BookId = id;
+            order.Title = book.Title;
             order.OrderQuantity = quantity;
             order.OrderPrice = book.Price * quantity;
             order.OrderDate = DateTime.Now;
@@ -45,7 +46,7 @@ namespace Assignment.Controllers
             return RedirectToAction("Store", "Book");
         }
 
-        [Authorize(Roles = "Customer, Admin")]
+       // [Authorize(Roles = "Customer, Admin")]
         public IActionResult Delete(int id)
         {
             var order = context.Order.Find(id);
@@ -57,7 +58,7 @@ namespace Assignment.Controllers
             return RedirectToAction("Index", "Order");
         }
 
-        [Authorize(Roles = "Customer,Admin")]
+       // [Authorize(Roles = "Customer,Admin")]
         public IActionResult Index()
         {
             var orders = context.Order
@@ -74,6 +75,14 @@ namespace Assignment.Controllers
                 .Where(c => c.UserEmail == User.Identity.Name)
                 .ToList();
             return View(orders);
+        }
+
+        [HttpPost]
+        public IActionResult Search(string email)
+        {
+            var orders = context.Order.Where(c => c.UserEmail.Contains(email))
+                                        .Include(c => c.Book).ToList();
+            return View("Index", orders);
         }
     }
 }

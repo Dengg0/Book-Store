@@ -7,7 +7,9 @@ namespace Assignment.Models
     {
         public int Id { get; set; }
 
-        public int BookId { get; set; }  
+        public int BookId { get; set; }
+
+        public string Title { get; set; }
 
         //Order - Mobile: Many To One
         public Book Book { get; set; }  
